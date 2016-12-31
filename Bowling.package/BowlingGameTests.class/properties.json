@@ -1,0 +1,14 @@
+{
+	"category" : "Bowling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BowlingGameTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
