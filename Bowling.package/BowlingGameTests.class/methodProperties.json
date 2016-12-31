@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllGutters" : "SS 12/31/2016 10:59",
-		"testSomePins" : "SS 12/31/2016 11:04" } }
+		"setUp" : "SS 12/31/2016 11:07",
+		"testAllGutters" : "SS 12/31/2016 11:07",
+		"testSomePins" : "SS 12/31/2016 11:07" } }
