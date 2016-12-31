@@ -1,3 +1,3 @@
 as yet unclassified
 score 
-	^ 0.
+	^ total.
