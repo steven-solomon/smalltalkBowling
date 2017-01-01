@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"total" ],
+		"rolls" ],
 	"name" : "BowlingGame",
 	"pools" : [
 		 ],
