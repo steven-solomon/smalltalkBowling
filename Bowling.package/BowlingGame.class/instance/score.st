@@ -1,8 +1,8 @@
 as yet unclassified
-score
-	|total|
-	total := 0. 
-	1 to: 10 do: [ :frameIndex |
-			total := total + ( self frameScore: frameIndex) + (self frameBonus: frameIndex).
-		].
-	^ total.
+score 
+	^ (1 to: 10) inject: 0 into: [ :sum :index | 
+		|frameTotal bonus|
+		bonus := 0.
+		frameTotal := (rolls at: index * 2 - 1) + (rolls at: index * 2).
+		(frameTotal = 10) ifTrue: [ bonus := rolls at: index * 2 + 1].
+		sum + frameTotal + bonus].

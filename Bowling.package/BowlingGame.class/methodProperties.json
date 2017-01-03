@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"frameBonus:" : "SS 12/31/2016 19:17",
-		"frameScore:" : "SS 12/31/2016 19:08",
-		"initialize" : "SS 12/31/2016 18:58",
-		"roll:" : "SS 12/31/2016 18:58",
-		"score" : "SS 12/31/2016 19:12" } }
+		"initialize" : "SS 1/2/2017 21:37",
+		"roll:" : "SS 1/2/2017 21:42",
+		"score" : "SS 1/2/2017 21:48" } }
