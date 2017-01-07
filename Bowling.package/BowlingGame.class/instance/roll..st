@@ -1,4 +1,6 @@
 as yet unclassified
 roll: pins
-	rolls addLast: pins.
-	total := total + pins.
+	currentRoll addLast: pins.
+	currentRoll size = 2 ifTrue: [ 
+		rolls addLast: currentRoll. 
+		currentRoll := OrderedCollection new.].
